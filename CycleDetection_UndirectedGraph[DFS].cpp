@@ -1,6 +1,9 @@
 // Online C++ compiler to run C++ program online
 #include <bits/stdc++.h>
 
+// TC: O(N+2E)
+// SC: O(N)
+
 using namespace std;
 
 bool cycleDetect(int node, int parent, vector<int> adj[], vector<bool>& vis){
