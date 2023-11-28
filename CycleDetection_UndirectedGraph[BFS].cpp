@@ -1,4 +1,7 @@
 // Online C++ compiler to run C++ program online
+// we start from a node, and start doing BFS level-wise, 
+// if somewhere down the line, we visit a single node twice, 
+// it means we came via two paths to end up at the same node.
 #include <bits/stdc++.h>
 // TC: O(N + 2E) + O(N)
 using namespace std;
