@@ -11,7 +11,7 @@ bool cycleDetect(int node, int parent, vector<int> adj[], vector<bool>& vis){
     vis[node] = true;
     for(auto u: adj[node]){
         if(!vis[u]){
-            if(dfs(u,v,adj,vis)) return true;
+            if(cycleDetect(u,v,adj,vis)) return true;
         }
         else if(u != parent){
             return true;
