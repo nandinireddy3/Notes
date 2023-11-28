@@ -3,6 +3,7 @@
 
 using namespace std;
 // if node that is on the same path is visited again 
+// TC: O(V+E)
 bool cycleDetect(int node, vector<int> adj[], vector<bool>& vis, vector<int>& path){
     
     vis[node] = true;
