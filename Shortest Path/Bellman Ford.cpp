@@ -8,6 +8,7 @@ RELAX[dist[u]+w < dist[v]] for n-1 times
 
 TC: O(V*E)
 SC: O(V)
+TC of complete graph: O(V^3)
 FAILS WHEN GRAPH CONTAINS NEGATIVE CYCLES
 DETECTS GRAPHS CONTATING NEGATIVE CYCLES.
 */
