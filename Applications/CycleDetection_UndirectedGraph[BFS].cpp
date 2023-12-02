@@ -23,7 +23,7 @@ bool cycleDetect(int node, vector<int> adj[], vector<bool>& vis){
                 vis[u] = true;
                 q.push({u,cur});
             }
-            if(u != parent) return true;
+            else(u != parent) return true;
             
         }
     }
